@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jeu de pierre-feuille-ciseaux</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>Jeu de pierre-feuille-ciseaux</h1>
+	<p>Choisissez l'une des options suivantes:</p>
+	<button onclick="play('pierre')">Pierre</button>
+	<button onclick="play('feuille')">Feuille</button>
+	<button onclick="play('ciseaux')">Ciseaux</button>
+	<p id="result"></p>
+	<script>
+		function play(userChoice) {
+			let computerChoice = Math.random();
+			if (computerChoice < 0.34) {
+				computerChoice = "pierre";
+			} else if (computerChoice <= 0.67) {
+				computerChoice = "feuille";
+			} else {
+				computerChoice = "ciseaux";
+			}
+			let result = compare(userChoice, computerChoice);
+			document.getElementById("result").innerHTML = result;
+		}
+		function compare(choice1, choice2) {
+			if (choice1 === choice2) {
+				return "Égalité!";
+			}
+			if (choice1 === "pierre") {
+				if (choice2 === "ciseaux") {
+					return "Vous avez gagné!";
+				} else {
+					return "L'ordinateur a gagné!";
+				}
+			}
+			if (choice1 === "feuille") {
+				if (choice2 === "pierre") {
+					return "Vous avez gagné!";
+				} else {
+					return "L'ordinateur a gagné!";
+				}
+			}
+			if (choice1 === "ciseaux") {
+				if (choice2 === "feuille") {
+					return "Vous avez gagné!";
+				} else {
+					return "L'ordinateur a gagné!";
+				}
+			}
+		}
+	</script>
+</body>
+</html>
