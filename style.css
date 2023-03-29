@@ -1,0 +1,40 @@
+header {
+	text-align: center;
+	margin: 20px 0;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	margin: 20px;
+	cursor: pointer;
+}
+
+button {
+	padding: 10px 20px;
+	margin: 20px;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #2a9df4;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #206b8c;
+}
+
+#resultat {
+	margin-top: 50px;
+	font-size: 2rem;
+	text-align: center;
+}
