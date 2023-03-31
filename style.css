@@ -1,0 +1,51 @@
+h1 {
+	font-size: 3rem;
+}
+
+.rock {
+	padding: 10px 20px;
+	margin: 20px;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	background : url(Pierre.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 10vh;
+	width: 10vw;
+	color: white;
+	cursor: pointer;
+
+}
+
+.paper {
+	padding: 10px 20px;
+	margin: 20px;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	background : url(Feuille.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 10vh;
+	width: 10vw;
+	color: white;
+	cursor: pointer;
+}
+
+.scissors {
+	padding: 10px 20px;
+	margin: 20px;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	background : url(Ciseaux.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 10vh;
+	width: 10vw;
+	color: white;
+	cursor: pointer;
+}
+
+
