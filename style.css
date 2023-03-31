@@ -2,6 +2,7 @@ h1 {
 	font-size: 3rem;
 }
 
+
 .rock {
 	padding: 10px 20px;
 	margin: 20px;
@@ -11,8 +12,8 @@ h1 {
 	background : url(Pierre.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 10vh;
-	width: 10vw;
+	height: 100px;
+	width: 100px;
 	color: white;
 	cursor: pointer;
 
@@ -27,8 +28,8 @@ h1 {
 	background : url(Feuille.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 10vh;
-	width: 10vw;
+	height: 100px;
+	width: 100px;
 	color: white;
 	cursor: pointer;
 }
@@ -42,10 +43,8 @@ h1 {
 	background : url(Ciseaux.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 10vh;
-	width: 10vw;
+	height: 100px;
+	width: 100px;
 	color: white;
 	cursor: pointer;
 }
-
-
