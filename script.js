@@ -1,3 +1,5 @@
+/*------------------------- Jeu -------------------------------*/
+
 const eloElement = document.getElementById("elo");
 let elo = 0;
 
@@ -52,3 +54,16 @@ function compare(choice1, choice2) {
         }
     }
 }
+
+/*------------------------ DARK MODE --------------------------*/
+const gameContainer = document.querySelector('.game-container');
+const toggleThemeBtn = document.querySelector('.toggle-theme');
+
+toggleThemeBtn.addEventListener('click', function() {
+  gameContainer.classList.toggle('dark-mode');
+  if (gameContainer.classList.contains('dark-mode')) {
+    toggleThemeBtn.textContent = 'Mode clair temporaire';
+  } else {
+    toggleThemeBtn.textContent = 'Mode sombre temporaire';
+  }
+});
