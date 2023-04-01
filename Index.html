@@ -8,14 +8,28 @@
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-	<h1>Jeu de pierre-feuille-ciseaux</h1>
-	<p>Choisissez l'une des options suivantes:</p>
-	<div><button class = "rock" onclick="play('pierre')"></button>
-		<button class = "paper" onclick="play('feuille')"></button>
-		<button class = "scissors" onclick="play('ciseaux')"></button>
-	</div>
-	<div>
-		<p id="result"></p>
+	<header>
+		<img src="logo.png" alt="Logo">
+		<h1>Rock-Paper-Scissors.com</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Connexion</a></li>
+				<li><a href="#">Inscription</a></li>
+				<li><a href="#">Profil</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="game-container">
+		<div class="game-box">
+			<div class="game">
+				<button class = "rock" onclick="play('pierre')"></button>
+				<button class = "paper" onclick="play('feuille')"></button>
+				<button class = "scissors" onclick="play('ciseaux')"></button>
+			</div>
+		</div>
+		<div class="result-container">
+			<p id="result"></p>
+		</div>
 	</div>
 </body>
 </html>
