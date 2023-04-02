@@ -67,7 +67,7 @@ nav a:hover {
 
 
 
-/* ---------------- Pierre Feuille Ciseau ---------------- */
+/* ---------------- Boite de jeu ---------------- */
 
 .game-container {
 	display: flex;
@@ -98,18 +98,17 @@ nav a:hover {
 }
 
 .game button {
-	padding: 10px;
-	font-size: 20px;
-	margin: 0 10px;
-	background-color: #1f1f1f;
-	color: #f8f8f2;
-	border: none;
-	border-radius: 5px;
+	margin-left: 20px;
 }
 
 .game button:hover {
 	background-color: #f8f8f2;
 	color: #1f1f1f;
+}
+
+.choice-img {
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .rock {
@@ -158,6 +157,8 @@ nav a:hover {
 	cursor: pointer;
 }
 
+/*-------------------- Resultat --------------------------*/
+
 .result-container {
 	margin-top: 20px;
 	width: 500px;
@@ -177,6 +178,8 @@ nav a:hover {
 	font-weight: bold;
 	color: #1f1f1f;
 }
+
+/*-------------------- Elo -------------------------*/
 
 .elo-box {
 	display: flex;
