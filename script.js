@@ -21,6 +21,7 @@ function play(userChoice) {
 
     //Affiche l'échange de coup
     var gameDiv = document.getElementById('game');
+    var enemyDiv = document.getElementById('enemy-game');
     var pierreBtn = document.getElementById('rock-btn');
     var feuilleBtn = document.getElementById('paper-btn');
     var ciseauBtn = document.getElementById('scissors-btn');
@@ -40,7 +41,8 @@ function play(userChoice) {
     computerChoiceImg.width = 100;
     computerChoiceImg.height = 100;
     computerChoiceImg.classList.add('choice-img');
-    gameDiv.appendChild(computerChoiceImg);
+    computerChoiceImg.classList.add('rotate');
+    enemyDiv.appendChild(computerChoiceImg);
 
     //Appelle compare pour déterminer le gagnant et change le elo
     let result = compare(userChoice, computerChoice);
@@ -112,4 +114,3 @@ toggleThemeBtn.addEventListener('click', function() {
     toggleThemeBtn.textContent = 'Mode sombre temporaire';
   }
 });
-
