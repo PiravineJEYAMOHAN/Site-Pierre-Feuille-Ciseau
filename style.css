@@ -65,8 +65,6 @@ nav a:hover {
 	color: #1f1f1f;
 }
 
-
-
 /* ---------------- Boite de jeu ---------------- */
 
 .game-container {
@@ -78,12 +76,52 @@ nav a:hover {
 	background-color: #f8f8f2;
 }
 
-.game-box {
-	margin-top: 30px;
+
+/*---------------- Boites Adversaire ------------*/
+
+.enemy-name-box {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	width: 500px;
+	height: 50px;
+	justify-content: center;
+	border: 2px solid #000000;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin-bottom: 15px;
+}
+
+.enemy-box {
 	border: 2px solid #000000;
 	background-color: #fff;
 	width: 500px;
-	height: 300px;
+	height: 150px;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.enemy-box p {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	color: #333;
+}
+
+/*------------------ Boites Utilisateur --------------*/
+
+.game-box {
+	margin-top: 50px;
+	border: 2px solid #000000;
+	background-color: #fff;
+	width: 500px;
+	height: 200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -106,11 +144,6 @@ nav a:hover {
 	color: #1f1f1f;
 }
 
-.choice-img {
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
 .rock {
 	padding: 10px 20px;
 	margin: 20px;
@@ -124,6 +157,7 @@ nav a:hover {
 	width: 100px;
 	color: white;
 	cursor: pointer;
+	border: 2px solid #000000;
 
 }
 
@@ -140,6 +174,7 @@ nav a:hover {
 	width: 100px;
 	color: white;
 	cursor: pointer;
+	border: 2px solid #000000;
 }
 
 .scissors {
@@ -155,9 +190,23 @@ nav a:hover {
 	width: 100px;
 	color: white;
 	cursor: pointer;
+	border: 2px solid #000000;
 }
 
-/*-------------------- Resultat --------------------------*/
+/*---------- Pour affichage confrontation Javascript ------------*/
+
+.choice-img {
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	border: 2px solid #000000;
+}
+
+.rotate {
+	transform: rotate(180deg);
+}
+
+/*-------------------- Boite Resultat --------------------------*/
 
 .result-container {
 	margin-top: 20px;
@@ -195,4 +244,3 @@ nav a:hover {
 	font-family: 'Lato', sans-serif;
 	color: #333;
 }
-
