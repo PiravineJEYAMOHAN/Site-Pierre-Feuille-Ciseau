@@ -1,1 +1,0 @@
-<?php header("Location:TD_PHP_ex3.html ")?>
