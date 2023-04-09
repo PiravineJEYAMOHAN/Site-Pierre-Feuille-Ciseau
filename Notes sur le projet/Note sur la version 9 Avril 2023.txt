@@ -11,3 +11,18 @@ Cahier des charges manquantes sur la version :
 - Enlever l'attribut "nom" de user sur la base de données et sur le code OU le changer par "name" 
   parce que c'est le seul attribut en français ça a pas de sens 
 - Mettre à jour le screenshot de la table user du dossier "ImageSetupPHPmyADMIN" en conséquence
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Mise à jour du :
+
+9 Avril 2023 :
+- Suppression de toute trace d'un attribut "elo" sur les pages du site et dans la base de données
+- Section Statistiques de la page profil en PHP terminé -> Page Profil terminé
+- Diverses améliorations front-end sur toutes les pages
+- Mise en place de la table "performance" dans la base de données et insertion automatique à un utilisateur s'inscrivant à un compte
+
+
+8 Avril 2023 :
+Suivi non effectué
