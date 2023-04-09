@@ -5,6 +5,7 @@ Cahier des charges manquantes sur la version :
 
 - Animation de roulement au choix du coup de l'ordinateur
 - Application sur la base de données du résultat d'un "match" -> modifications entre les lignes 68 à 74 du fichier script.js
+- Empecher l'inscription d'un pseudo déjà présent dans la base de données
 - Mettre toutes les écritures du sites en anglais
 
 - Enlever l'attribut "nom" de user sur la base de données et sur le code OU le changer par "name" 
