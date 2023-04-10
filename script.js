@@ -59,7 +59,7 @@ function play(userChoice) {
     document.getElementById("result").innerHTML = result;
     eloElement.textContent = elo;
 
-    // Attendre 4 secondes avant de réafficher les boutons
+    // Attendre 1.5 secondes avant de réafficher les boutons
     setTimeout(function() {
         var choicesImgs = document.getElementsByClassName('choice-img');
         while (choicesImgs.length > 0) {
@@ -69,7 +69,7 @@ function play(userChoice) {
         feuilleBtn.style.display = 'inline-block';
         ciseauBtn.style.display = 'inline-block';
         document.getElementById("result").innerHTML = '';
-    }, 3000);
+    }, 1500);
 }
 
 
