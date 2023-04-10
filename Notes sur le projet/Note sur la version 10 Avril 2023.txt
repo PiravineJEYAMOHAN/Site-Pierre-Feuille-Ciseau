@@ -1,16 +1,19 @@
 Note sur la version 10 Avril 2023 
 
-
-Cahier des charges manquantes sur la version :
-
-- Animation de roulement au choix du coup de l'ordinateur
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------
+Cahier des charges complété
+----------------------------
 
 Mise à jour du :
 
+10 Avril 2023 V2 :
+- Divserses Améliorations
+- Creation de la page Classement
+
+
 10 Avril 2023 :
+- Divserses Améliorations
+- Creation de la page Classement
 - Insertion de la date d'inscription sur le profil
 - Insertion de registrationDate dans la base de données sur la table user
 - Empeche l'inscription d'un pseudo déjà présent dans la base de données
