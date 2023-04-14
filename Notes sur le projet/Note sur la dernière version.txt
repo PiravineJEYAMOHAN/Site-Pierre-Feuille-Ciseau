@@ -7,7 +7,8 @@ Cahier des charges complété
 Mise à jour du :
 
 14 Avril 2023 (Nommé Rock Paper Scissor car possible version à envoyer au prof) :
-Le titre des pages en "Rock Paper Scissors.com" au lieu de "Pierre Feuille Ciseaux.com"
+- Le titre des pages en "Rock Paper Scissors.com" au lieu de "Pierre Feuille Ciseaux.com"
+- Bouton "mot de passe oublié" de la page connexion retirée
 
 
 10 Avril 2023 V2 :
