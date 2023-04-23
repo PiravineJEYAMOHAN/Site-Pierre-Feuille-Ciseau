@@ -1,6 +1,0 @@
-Mise en place du site (à mettre sur le compte rendu pdf pour que le prof puisse tester)
-
--Créer une base de données PhpMyAdmin nommé "shifumi" pour l'utilisateur "root" (pas de mot de passe)
--Faire les tables user et performance comme sur les images du dossier ImageSetupPHPmyADMIN
--Ecrire la requête de contraite fk_user pour la clé primaire comme dans une image du même dossier
-
