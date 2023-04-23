@@ -6,6 +6,12 @@ Cahier des charges complété
 
 Mise à jour du :
 
+24 Avril 2023:
+- Attribut de la table performance : tie_number -> draw_number
+- Divers ajouts de messages lors de l'inscription et de la connexion
+- Amélioration de la page Connexion
+- Incorporation d'une présentation sur la page d'Accueil
+
 
 10 Avril 2023 V2 :
 - Divserses Améliorations
