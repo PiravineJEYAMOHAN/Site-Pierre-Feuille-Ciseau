@@ -6,6 +6,11 @@ Cahier des charges complété
 
 Mise à jour du :
 
+25 Avril 2023 :
+- Ajout de la page règles
+- Passage des variables pseudos qui étaient dans l'url à des variables de sessions
+
+
 24 Avril 2023:
 - Attribut de la table performance : tie_number -> draw_number
 - Divers ajouts de messages lors de l'inscription et de la connexion
